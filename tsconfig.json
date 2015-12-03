@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "system",
+    "moduleResolution": "node",
+    "isolatedModules": false,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "declaration": false,
+    "noImplicitAny": false,
+    "removeComments": true,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "suppressImplicitAnyIndexErrors": true
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx",
+    "!node_modules/**"
+  ],
+  "files": [
+    "jspm_packages/npm/typescript@1.7.3/lib/lib.core.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/lib.core.es6.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/lib.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/lib.dom.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/lib.es6.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/lib.scriptHost.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/lib.webworker.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/typescript.d.ts",
+    "jspm_packages/npm/typescript@1.7.3/lib/typescriptServices.d.ts",
+    "typings/react/react-dom.d.ts",
+    "typings/react/react.d.ts",
+    "typings/tsd.d.ts",
+    "app/main.tsx"
+  ],
+  "exclude": [],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}

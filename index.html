@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>hi</title>
+    <script src="jspm_packages/system.js"></script>
+    <script src="config.js"></script>
+    <script>
+      // this is working, yeah
+      System.import("app-working/main")
+
+      // but this breaks ? but why
+      System.import("app-broken/main");
+
+    </script>
+  </head>
+
+  <body>
+    <div id="renderHere-working">loading .. working typescript</div>
+    <div id="renderHere-broken">loading .. broken typescript</div>
+  </body>
+
+</html>

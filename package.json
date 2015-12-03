@@ -1,0 +1,27 @@
+{
+  "name": "react-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --open=.",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jspm": "^0.16.15",
+    "live-server": "^0.8.2"
+  },
+  "jspm": {
+    "dependencies": {
+      "react": "npm:react@^0.14.3",
+      "react-dom": "npm:react-dom@^0.14.3",
+      "ts": "github:frankwallis/plugin-typescript@^2.3.2",
+      "underscore": "npm:underscore@^1.8.3"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
