@@ -7,18 +7,13 @@
     <script src="jspm_packages/system.js"></script>
     <script src="config.js"></script>
     <script>
-      // this is working, yeah
-      System.import("app-working/main")
-
-      // but this breaks ? but why
-      System.import("app-broken/main");
+      System.import("app/main");
 
     </script>
   </head>
 
   <body>
-    <div id="renderHere-working">loading .. working typescript</div>
-    <div id="renderHere-broken">loading .. broken typescript</div>
+    <div id='render-app'>loading ...</div>
   </body>
 
 </html>

@@ -5,12 +5,11 @@ System.config({
   typescriptOptions: {
     "noImplicitAny": false,
     "typeCheck": true,
-    "jsx": "react",
+    "jsx": 2,
     "module": "system",
     "isolatedModules": false,
     "emitDecoratorMetadata": true,
     "declaration": false,
-    "noImplicitAny": false,
     "removeComments": false,
     "noLib": false,
     "preserveConstEnums": true,
@@ -19,33 +18,23 @@ System.config({
   paths: {
     "npm:*": "jspm_packages/npm/*",
     "github:*": "jspm_packages/github/*"
-
   },
 
   packages: {
-    "app-broken": {
+    "app": {
       "defaultExtension": "tsx",
       "map": {
-        "typescript": "typescript",
+        "typescript": "typescript"
       },
       "modules": {
         "*.tsx": {
           "loader": "typescript"
-        }
-      }
-    },
-    "app-working": {
-      "defaultExtension": "ts",
-      "map": {
-        "typescript": "typescript",
-      },
-      "modules": {
+        },
         "*.ts": {
           "loader": "typescript"
         }
       }
     }
-
   },
 
   map: {
